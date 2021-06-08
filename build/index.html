@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Tailwind CSS</title>
+    <title>Thirteen Bled Promises</title>
   </head>
   <body>
     <!-- Content Starts Here -->
@@ -14,41 +14,56 @@
         bg-gradient-to-r
         from-black
         to-green-100
-        py-6
+        p-4
         flex flex-col
         justify-center
         sm:py-12
       "
     >
+      <img
+        src="images/af_logo.png"
+        alt=""
+        class="absolute inset-0 w-full h-screen object-cover opacity-10"
+      />
+      <img
+        src="images/af_logo.png"
+        alt=""
+        class="absolute inset-0 w-full h-screen object-fill opacity-10"
+      />
+      <img
+        src="images/af_logo.png"
+        alt=""
+        class="absolute inset-0 w-full h-screen object-contain opacity-10"
+      />
       <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-        <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-          <img
-            class="
-              w-32
-              h-32
-              md:w-96
-              md:h-auto
-              md:rounded-none
-              rounded-full
-              mx-auto
-            "
-            src="images/announcement-flyer1.jpg"
-            alt=""
-            width="384"
-            height="512"
-          />
+        <div
+          class="
+            md:absolute
+            md:transform
+            md:-rotate-6 md:-translate-x-20 md:-translate-y-10
+            text-center
+            pb-6
+          "
+        >
+          <img src="images/logo_small.png" class="inline" />
+        </div>
+
+        <img src="images/announcement-flyer1.jpg" alt="" />
+        <figure
+          class="md:flex bg-gray-100 bg-opacity-75 rounded-b-lg p-8 md:p-0"
+        >
           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
               <p class="text-lg font-semibold">
                 "We are very happy to join the Lacerated Records family and
-                really looking forward to share the new stuff that is coming
-                out. Stay tune!"
+                really looking forward to share with you the new stuff that is
+                coming out. Stay tune!"
               </p>
             </blockquote>
             <figcaption class="font-medium">
-              <div class="text-cyan-600">Thirteen Bled Promises</div>
               <div class="text-gray-500">
-                From the Helliopause, moving closer to Voyagers 1 and 2
+                Message sent from the outer reach of the Heliopause, closer to
+                Voyagers 1 and 2
               </div>
             </figcaption>
           </div>
@@ -91,6 +106,7 @@
         </div>
       </div>
     </div>
+
     <!-- Content Ends Here -->
   </body>
 </html>
