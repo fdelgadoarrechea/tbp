@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <!-- Content Starts Here -->
+    <div
+      class="
+        min-h-screen
+        bg-gradient-to-r
+        from-black
+        to-green-100
+        py-6
+        flex flex-col
+        justify-center
+        sm:py-12
+      "
+    >
+      <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+        <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+          <img
+            class="
+              w-32
+              h-32
+              md:w-96
+              md:h-auto
+              md:rounded-none
+              rounded-full
+              mx-auto
+            "
+            src="images/announcement-flyer1.jpg"
+            alt=""
+            width="384"
+            height="512"
+          />
+          <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+            <blockquote>
+              <p class="text-lg font-semibold">
+                "We are very happy to join the Lacerated Records family and
+                really looking forward to share the new stuff that is coming
+                out. Stay tune!"
+              </p>
+            </blockquote>
+            <figcaption class="font-medium">
+              <div class="text-cyan-600">Thirteen Bled Promises</div>
+              <div class="text-gray-500">
+                From the Helliopause, moving closer to Voyagers 1 and 2
+              </div>
+            </figcaption>
+          </div>
+        </figure>
+        <div class="relative px-4 py-10 sm:rounded-3xl sm:p-20">
+          <div class="max-w-md mx-auto">
+            <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-4">
+              <div class="transform scale-110 -rotate-6">
+                <img src="images/1.jpg" class="rounded-xl shadow-lg" />
+              </div>
+              <div
+                class="
+                  col-start-3
+                  transform
+                  scale-75
+                  rotate-6
+                  translate-x-2 translate-y-15
+                "
+              >
+                <img src="images/2.jpg" class="rounded-xl shadow-lg" />
+              </div>
+              <div class="transform scale-150 translate-y-11">
+                <img src="images/3.jpg" class="rounded-xl shadow-lg" />
+              </div>
+              <div class="transform translate-y-24">
+                <img src="images/4.jpg" class="rounded-xl shadow-lg" />
+              </div>
+              <div
+                class="
+                  row-start-1
+                  col-start-2 col-span-2
+                  transform
+                  translate-y-4
+                "
+              >
+                <img src="images/5.jpg" class="rounded-xl shadow-lg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Ends Here -->
+  </body>
+</html>
